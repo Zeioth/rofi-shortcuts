@@ -18,4 +18,13 @@ Just attach the script to a keyboard shortcut.
 **Then use it to search like:**
 
 [This](https://www.youtube.com/watch?v=FPPuJuHICMs)
-    
+
+More info
+==========
+* These are my personal shortcuts. 80% of them are defaults, but feel free to edit rofi-shortcuts.conf with your own.
+* The vim shortcuts include the ones from [vim ultimate config](https://github.com/amix/vimrc).
+
+Credits
+==========
+https://github.com/hackjutsu/vim-cheatsheet
+https://devhints.io/vim
