@@ -1,0 +1,334 @@
+#################################### TABLE OF CONTENTS #####################################
+* V I M
+* S U B L I M E
+* I 3 W M
+* R A N G E R
+* T I L I X
+* T E R M I N A T O R
+* F I R E F O X
+	- V I M I U M C
+* T H U N D E R D B I R D
+* L I B R E O F F I C E
+* F R A N Z
+* H E X C H A T
+* D I S C O R D
+##################################### I3WM SHORTCUTS ######################################
+--------------------------------------- I3WM WORKSPACES --------------------------------------- 
+i3wm: 
+i3wm: 
+--------------------------------------- I3WM   --------------------------------------- 
+i3wm: 
+i3wm: 
+
+################################### RANGER SHORTCUTS ######################################
+ranger:
+ranger:
+ranger:
+ranger:
+ranger:
+
+##################################### TILIX SHORTCUTS ######################################
+tilix:
+tilix:
+tilix:
+tilix:
+tilix:
+tilix:
+
+################################### TERMINATOR SHORTCUTS ####################################
+terminator:
+terminator:
+terminator:
+
+################################### FIREFOX SHORTCUTS ####################################
+firefox:
+firefox:
+firefox:
+
+##################################### FRANZ SHORTCUTS ######################################
+franz:
+
+##################################### HEXCHAT SHORTCUTS ######################################
+hexchat:
+
+#################################### THUNDERBIRD SHORTCUTS #####################################
+thunderbird:
+
+#################################### LIBREOFFICE SHORTCUTS #####################################
+libreoffice:
+
+
+
+
+###################################### VIM SHORTCUTS #######################################
+--------------------------------------- VIM MOVEMENT ---------------------------------------
+vim move: h        		# move cursor left
+vim move: j        		# move cursor down
+vim move: k        		# move cursor up
+vim move: l        		# move cursor right
+vim move: H        		# move to top of screen
+vim move: M        		# move to middle of screen
+vim move: L        		# move to bottom of screen
+vim move: w        		# jump forwards to the start of a word
+vim move: W        		# jump forwards to the start of a word (words can contain punctuation)
+vim move: e        		# jump forwards to the end of a word
+vim move: E       	 	# jump forwards to the end of a word (words can contain punctuation)
+vim move: b        		# jump backwards to the start of a word
+vim move: B        		# jump backwards to the start of a word (words can contain punctuation)
+vim move: 0        		# jump to the start of the line
+vim move: ^        		# jump to the first non-blank character of the line
+vim move: $        		# jump to the end of the line
+vim move: g_       		# jump to the last non-blank character of the line
+vim move: gg       		# go to the first line of the document
+vim move: G        		# go to the last line of the document
+vim move: 5G       		# go to line 5
+vim move: fx       		# jump to next occurrence of character x
+vim move: tx       		# jump to before next occurrence of character x
+vim move: }        		# jump to next paragraph (or function/block, when editing code)
+vim move: {        		# jump to previous paragraph (or function/block, when editing code)
+vim move: zz       		# center cursor on screen
+vim move: Ctrl + b 		# move back one full screen
+vim move: Ctrl + f 		# move forward one full screen
+vim move: Ctrl + d 		# move forward 1/2 a screen
+vim move: Ctrl + u 		# move back 1/2 a screen
+vim move: lead + hjkl # move window
+vim move: lead+cd			# cd current file's dir
+--------------------------------------- VIM INSERT MODE ---------------------------------------
+vim insert: i        	# insert before the cursor
+vim insert: I        	# insert at the beginning of the line
+vim insert: a        	# insert (append) after the cursor
+vim insert: A        	# insert (append) at the end of the line
+vim insert: o        	# append (open) a new line below the current line
+vim insert: O        	# append (open) a new line above the current line
+vim insert: ea       	# insert (append) at the end of the word
+vim insert: Esc      	# exit insert mode
+--------------------------------------- VIM EDIT ---------------------------------------
+vim edit: r        		# replace a single character
+vim edit: J        		# join line below to the current one
+vim edit: cc      	 	# change (replace) entire line
+vim edit: cw     	  	# change (replace) to the start of the next word
+vim edit: ce      	 	# change (replace) to the end of the next word
+vim edit: cb     	  	# change (replace) to the start of the previous word
+vim edit: c0     	  	# change (replace) to the start of the line
+vim edit: c$     	  	# change (replace) to the end of the line
+vim edit: s     		  # delete character and substitute text
+vim edit: S    		    # delete line and substitute text (same as cc)
+vim edit: xp     		  # transpose two letters (delete and paste)
+vim edit: .        		# repeat last command
+vim edit: u        		# undo
+vim edit: Ctrl + r 		# redo
+--------------------------------------- VIM VISUAL MODE ---------------------------------------
+vim visual: v         # start visual mode, mark lines, then do a command (like y-yank)
+vim visual: V       	# start linewise visual mode
+vim visual: o       	# move to other end of marked area
+vim visual: O       	# move to other corner of block
+vim visual: aw      	# mark a word
+vim visual: ab       	# a block with ()
+vim visual: aB       	# a block with {}
+vim visual: ib       	# inner block with ()
+vim visual: iB       	# inner block with {}
+vim visual: Esc      	# exit visual mode
+vim visual: Ctrl + v  # start visual block mode
+vim visual: lead + *  # search current selection next
+vim visual: lead + #  # search current selection prev
+vim visual: lead + gv #	quick search selection
+vim visual: lead + r  # search and replace selection
+vim visual: $1 $2 $3 $$ $q $e # surround sel. with (),[],[],"",'',""
+--------------------------------------- VIM VISUAL COMMANDS ---------------------------------------
+vim visual c: >       # shift text right
+vim visual c: <       # shift text left
+vim visual c: y       # yank (copy) marked text
+vim visual c: d       # delete marked text
+vim visual c: ~       # switch case
+--------------------------------------- VIM CUT & PASTE ---------------------------------------
+vim cut paste: yy     	 	# yank (copy) a line
+vim cut paste: 2yy   		 	# yank (copy) 2 lines
+vim cut paste: yw    		 	# yank (copy) the characters of the word from the cursor position to the start of the next word
+vim cut paste: y$    		 	# yank (copy) to end of line
+vim cut paste: p     		 	# put (paste) the clipboard after cursor
+vim cut paste: P   		  	# put (paste) before cursor
+vim cut paste: dd		     	# delete (cut) a line
+vim cut paste: 2dd		    # delete (cut) 2 lines
+vim cut paste: dw     		# delete (cut) the characters of the word from the cursor position to the start of the next word
+vim cut paste: D      		# delete (cut) to the end of the line
+vim cut paste: d$     		# delete (cut) to the end of the line
+vim cut paste: d^     		# delete (cut) to the first non-blank character of the line
+vim cut paste: d0     		# delete (cut) to the begining of the line
+vim cut paste: x      		# delete (cut) character
+vim cut paste: lead + pp	# toggle paste mode
+--------------------------------------- VIM SEARCH & REPLACE ---------------------------------------
+vim search replace: spacebar				# search
+vim search replace: ctrl+spacebar 	# search prev
+vim search replace: lead+g					# quick search
+vim search replace: /pattern       	# search for pattern
+vim search replace: ?pattern       	# search backward for pattern
+vim search replace: \vpattern      	# 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
+vim search replace: n              	# repeat search in same direction
+vim search replace: N              	# repeat search in opposite direction
+vim search replace: :%s/old/new/g  	# replace all old with new throughout file
+vim search replace: :%s/old/new/gc 	# replace all old with new throughout file with confirmations
+vim search replace: :noh           	# remove highlighting of search matches
+--------------------------------------- VIM SEARCH MULTI FILE ---------------------------------------
+vim search multi: :vimgrep /pattern/ {file} # search for pattern in multiple files
+vim search multi: :cn                       # jump to the next match
+vim search multi: :cp                       # jump to the previous match
+vim search multi: :copen                    # open a window containing the list of matches
+--------------------------------------- VIM EXIT ---------------------------------------
+vim exit: :w              # write (save) the file, but don't exit
+vim exit: :W 							# write (save) the file as sudo, but don't exit
+vim exit: :w !sudo tee %  # write out the current file using sudo
+vim exit: :wq or :x or ZZ # write (save) and quit
+vim exit: :q              # quit (fails if there are unsaved changes)
+vim exit: :q! or ZQ       # quit and throw away unsaved changes
+--------------------------------------- VIM MULTI FILES ---------------------------------------
+vim multi file: lead+q 				# Open buffer for scripbble
+vim multi file: lead+bd 			# close current buffer
+vim multi file: lead+ba 			# close all buffers
+vim multi file: :e file       # edit a file in a new buffer
+vim multi file: :bnext or :bn # go to the next buffer
+vim multi file: :bprev or :bp # go to the previous buffer
+vim multi file: :bd           # delete a buffer (close a file)
+vim multi file: :ls           # list all open buffers
+vim multi file: :sp file      # open a file in a new buffer and split window
+vim multi file: :vsp file     # open a file in a new buffer and vertically split window
+vim multi file: Ctrl + ws     # split window
+vim multi file: Ctrl + ww     # switch windows
+vim multi file: Ctrl + wq     # quit a window
+vim multi file: Ctrl + wv     # split window vertically
+vim multi file: Ctrl + wh     # move cursor to the left window (vertical split)
+vim multi file: Ctrl + wl     # move cursor to the right window (vertical split)
+vim multi file: Ctrl + wj     # move cursor to the window below (horizontal split)
+vim multi file: Ctrl + wk     # move cursor to the window above (horizontal split)
+--------------------------------------- VIM TABS ---------------------------------------
+vim tab: lead+tn                  # open a file in a new tab
+vim tab: lead+to                  # tab only
+vim tab: lead+tc                  # tab close
+vim tab: lead+tm                  # tab move 
+vim tab: lead+te                  # tab edit
+vim tab: <number>gt               # move to tab <number>
+vim tab: Ctrl + wT                # move the current split window into its own tab
+vim tab: gt or :tabnext or :tabn  # move to the next tab
+vim tab: gT or :tabprev or :tabp  # move to the previous tab
+vim tab: :tabmove <number>        # move current tab to the <number>th position (indexed from 0)
+vim tab: :tabclose or :tabc       # close the current tab and all its windows
+vim tab: :tabonly or :tabo        # close all tabs except for the current one
+vim tab: :tabdo command           # run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
+--------------------------------------- VIM CODE FOLDING ---------------------------------------
+vim folding: lead+tn              # open a file in a new tab
+vim folding: zo / zO 							# Open
+vim folding: zc / zC 							# Close
+vim folding: za / zA 							# Toggle
+vim folding: zv 									# Open folds for this line
+vim folding: zM 									# Close all
+vim folding: zR 									# Open all
+vim folding: zm 									# Fold more (foldlevel += 1)
+vim folding: zr 									# Fold less (foldlevel -= 1)
+vim folding: zx 									# Update folds
+vim folding: ADVICE								# I recommend using vim-anyfold for better folding.
+--------------------------------------- VIM COMMAND LINE --------------------------------------
+vim command line: iab 						# Insert timestamp
+vim command line: $q 							# Delete until the last slash
+
+vim command line: quit	-> :q
+vim command line: force quit	-> :q!
+--------------------------------------- VIM PLUGINS --------------------------------------
+vim plugin nerdtree: lead+nn 				# Toggle tree
+vim plugin nerdtree: lead+nf 				# Tree from bookmark
+vim plugin nerdtree: lead+nb 				# Open Bookmark
+vim plugin buferexplorer: lead+o 		# See and manage current buffers
+vim plugin ctrlp.vim: lead+f 				# Recent files
+vim plugin ctrlp.vim: lead+b 				# Recent buffers
+vim plugin ctrlp.vim: <C-f> 				# Recent files  on CWD
+vim plugin zen mode: lead+z 				# Toggle zen mode
+vim plugin mult cursors: '<C-s>' 		# multi_cursor_start_word_key
+vim plugin mult cursors: '<A-s>' 		# multi_cursor_select_all_word_key
+vim plugin mult cursors: 'g<C-s>'	 	# multi_cursor_start_key
+vim plugin mult cursors: 'g<A-s>'	 	# multi_cursor_select_all_key
+vim plugin mult cursors: '<C-s>' 		# multi_cursor_next_key
+vim plugin mult cursors: '<C-p>' 		# multi_cursor_prev_key
+vim plugin mult cursors: '<C-x>' 		# multi_cursor_skip_key
+vim plugin mult cursors: '<Esc>' 		# multi_cursor_quit_key
+vim plugin yankstack: <C-p> 				# yankstack_substitute_older_paste 
+vim plugin yankstack: <C-n> 				# yankstack_substitute_newer_paste
+vim plugin ctrl-p: '<C-f>' 					# g:ctrlp_map
+vim plugin ctrl-p: <lead>j 					# :CtrlP<cr>
+vim plugin ctrl-p: <C-b> 						# :CtrlPBuffer<cr>
+vim plugin snipmate: <C-j>					# autocomplete
+vim plugin surround: Si							# Surrounds a string with _() gettext annotation
+vim plugin ale: <lead>a		 					# Go to the next Ale syntax/lint error
+vim plugin spell checking: lead+ss 	# toggle spellcheck
+vim plugin cope: cc 								# Open errors bot-right
+vim plugin cope: lead+co     				# Open errors in new tab
+vim plugin cope: lead+n 						# Next-error
+vim plugin cope: lead+p 						# Prev-error
+vim plugin anyfold: [[          		# Move to the beginning of the current block.
+vim plugin anyfold: ]]          		# Move to the end of the current block.
+vim plugin anyfold: ]k          		# Move to the end of the previous block.
+vim plugin anyfold: [j          		# Move to the beginning of the next block.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### SUBLIME SHORTCUTS #####################################
+sublime:
+
+##################################### I3WM SHORTCUTS ######################################
+--------------------------------------- I3WM WORKSPACES --------------------------------------- 
+i3wm: 
+i3wm: 
+--------------------------------------- I3WM   --------------------------------------- 
+i3wm: 
+i3wm: 
+
+################################### RANGER SHORTCUTS ######################################
+ranger:
+ranger:
+ranger:
+ranger:
+ranger:
+
+##################################### TILIX SHORTCUTS ######################################
+tilix:
+tilix:
+tilix:
+tilix:
+tilix:
+tilix:
+
+################################### XFCE4-TERM SHORTCUTS ####################################
+xfce4-term:
+xfce4-term:
+xfce4-term:
+
+################################### FIREFOX SHORTCUTS ####################################
+firefox:
+firefox:
+firefox:
+
+##################################### FRANZ SHORTCUTS ######################################
+franz:
+
+##################################### HEXCHAT SHORTCUTS ######################################
+hexchat:
+
+#################################### THUNDERBIRD SHORTCUTS #####################################
+thunderbird:
+
+#################################### LIBREOFFICE SHORTCUTS #####################################
+libreoffice:
+
+
+
+NOTA: Para contenidos muy complejos, como vim, deberiamos añadir un indice de contenidos, para navegar mas facilmente
+
