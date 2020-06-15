@@ -19,6 +19,30 @@ Just attach the script to a keyboard shortcut.
 
 [This](https://www.youtube.com/watch?v=FPPuJuHICMs)
 
+
+Table of contents
+==========
+* V I M
+  - M o v e m e n t.
+  - I n s e r t  m o d e.
+  - E d i t.
+  - V i s u a l  m o de.
+  - V i s u a l  c o m m a n d s.
+  - C u t  &  p a s t e.
+  - S e a r c h  &  r e p l a c e.
+* S U B L I M E
+* I 3 W M
+* R A N G E R
+* T I L I X
+* T E R M I N A T O R
+* F I R E F O X
+  - V I M I U M C
+* T H U N D E R D B I R D
+* L I B R E O F F I C E
+* F R A N Z
+* H E X C H A T
+* D I S C O R D
+
 More info
 ==========
 * These are my personal shortcuts. All of them are defaults, but feel free to edit rofi-shortcuts.conf with your own.
