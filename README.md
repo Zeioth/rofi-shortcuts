@@ -24,6 +24,10 @@ More info
 * These are my personal shortcuts. All of them are defaults, but feel free to edit rofi-shortcuts.conf with your own.
 * Vim shortcuts include the ones from [vim ultimate config](https://github.com/amix/vimrc).
 
+Wanna contribute?
+==========
+* Pull requests with default shortcuts of missing programs are welcome.
+
 Credits
 ==========
 https://github.com/hackjutsu/vim-cheatsheet
