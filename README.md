@@ -17,5 +17,5 @@ Just attach the script to a keyboard shortcut.
 
 **Then use it to search like:**
 
-    * DEMO HERE - WIP
+https://www.youtube.com/watch?v=FPPuJuHICMs
     
