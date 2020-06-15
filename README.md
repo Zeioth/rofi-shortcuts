@@ -13,7 +13,7 @@ Just attach the script to a keyboard shortcut.
 **Example for I3WM**
 
     cp ./rofi-shortcuts ~/.config/rofi
-    bindsym $mod+ctrl+s exec "$(cat ~/.config/rofi-shortcuts/rofi-shortcuts.conf | rofi -i -dmenu -p "shortcuts")"
+    bindsym $mod+ctrl+s exec "$(cat ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf | rofi -i -dmenu -p "shortcuts")"
 
 **Then use it to search like:**
 
