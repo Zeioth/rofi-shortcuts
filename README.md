@@ -21,7 +21,7 @@ Just attach the script to a keyboard shortcut.
 
 More info
 ==========
-* These are my personal shortcuts. 90% of them are defaults, but feel free to edit rofi-shortcuts.conf with your own.
+* These are my personal shortcuts. All of them are defaults, but feel free to edit rofi-shortcuts.conf with your own.
 * The vim shortcuts include the ones from [vim ultimate config](https://github.com/amix/vimrc).
 
 Credits
