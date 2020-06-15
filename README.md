@@ -1,5 +1,5 @@
 # rofi-shortcuts
-The ultimate shortcuts cheatsheet
+The ultimate shortcuts cheatsheet.
 
 Dependencies
 ==========
