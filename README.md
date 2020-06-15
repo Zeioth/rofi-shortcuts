@@ -30,6 +30,6 @@ Wanna contribute?
 
 Credits
 ==========
-https://github.com/hackjutsu/vim-cheatsheet
-https://devhints.io/vim
+* https://github.com/hackjutsu/vim-cheatsheet
+* https://devhints.io/vim
 
