@@ -28,4 +28,7 @@ Credits
 ==========
 https://github.com/hackjutsu/vim-cheatsheet
 https://devhints.io/vim
+<<<<<<< HEAD
 
+=======
+>>>>>>> 15029a6c92cc0baae36710392fb1e00a533f2026
