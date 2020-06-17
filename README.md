@@ -45,7 +45,17 @@ Table of contents
   - F i l e  s u b s t i t u t i n g.
   - c u s t o m.
 * T I L I X
+  - A p p l i c a t i o n
+  - t a b s (s e s s i o n s)
+  - C o l u m n s
+  - R e s i z e  c o l u m n
+  - S e a r c h
 * T E R M I N A T O R
+  - C r e a t i o n  &  d e s t r u c t i o n
+  - N a v e g a t  i o n
+  - O r g a n i z a t i o n
+  - M i s c e l a n e o u s
+  - G r o u p i n g  &  B r o a d c a s t i n g 
 * F I R E F O X
   - V I M I U M C
 * T H U N D E R D B I R D
