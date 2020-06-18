@@ -45,19 +45,31 @@ Table of contents
   - F i l e  s u b s t i t u t i n g.
   - c u s t o m.
 * T I L I X
-  - A p p l i c a t i o n
-  - t a b s (s e s s i o n s)
-  - C o l u m n s
-  - R e s i z e  c o l u m n
-  - S e a r c h
+  - A p p l i c a t i o n.
+  - t a b s (s e s s i o n s).
+  - C o l u m n s.
+  - R e s i z e  c o l u m n.
+  - S e a r c h.
 * T E R M I N A T O R
-  - C r e a t i o n  &  d e s t r u c t i o n
-  - N a v e g a t  i o n
-  - O r g a n i z a t i o n
-  - M i s c e l a n e o u s
-  - G r o u p i n g  &  B r o a d c a s t i n g 
+  - C r e a t i o n  &  d e s t r u c t i o n.
+  - N a v e g a t  i o n.
+  - O r g a n i z a t i o n.
+  - M i s c e l a n e o u s.
+  - G r o u p i n g  &  B r o a d c a s t i n g.
 * F I R E F O X
-  - V I M I U M C
+  - C u r r e n t  p a g e.
+  - T a b s.
+  - h i s t o r y
+  - B o o k m a r k s.
+  - T o o l s
+  - P d f 
+  - M i s c
+* V I M I U M C
+  - V i m i u m c  n a v i g a t i o n.
+  - V o m n i b a r.
+  - F i n d.
+  - N a v i g a t i n g  h i s t o r y.
+  - T a b s.
 * T H U N D E R D B I R D
 * L I B R E O F F I C E
 * F R A N Z
