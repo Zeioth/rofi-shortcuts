@@ -59,11 +59,11 @@ Table of contents
 * F I R E F O X
   - C u r r e n t  p a g e.
   - T a b s.
-  - h i s t o r y
+  - H i s t o r y.
   - B o o k m a r k s.
-  - T o o l s
-  - P d f 
-  - M i s c
+  - T o o l s.
+  - P d f .
+  - M i s c.
 * V I M I U M C
   - V i m i u m c  n a v i g a t i o n.
   - V o m n i b a r.
@@ -71,11 +71,33 @@ Table of contents
   - N a v i g a t i n g  h i s t o r y.
   - T a b s.
 * T H U N D E R D B I R D
-* L I B R E O F F I C E
+  - B a s e.
+  - E m a i l.
+  - C a l e n d a r.
+  - T a s k s.
+  - P l u g i n s.
+* L I B R E O F F I C E  W R I T E R
+  - F u n c t i o n  k e y s.
+  - B a s e.
+  - P a r a g r a p h s.
+  - T a b l e s.
+  - M o v i n g  o b j e c t s.
+* L I B R E O F F I C E  C A L C
+  - N a v i g a t i o n.
+  - F u n c t i o n  k e y s.
+  - F o r m a t  c e l l s.
+  - P i v o t  t a b l e.
 * F R A N Z
 * H E X C H A T
 * D I S C O R D
 * R O F I
+* G I M P [todo]
+* I N K S C A P E [todo]
+* S C R I B U S [todo]
+* S Y N F Y G  [todo]
+* L I G H T W O R K S [todo]
+* N A T R O N [todo]
+* B L E N D E R [todo]
 
 More info
 ==========
