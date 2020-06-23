@@ -35,9 +35,8 @@ pkgver() {
 }
 
 package() {
-    mkdir -p "~/.config/rofi/rofi-shortcuts/"
-    mkdir -p "~/.local/share/rofi/rofi-shortcuts/"
-	cp "${pkgdir}/rofi-shortcuts.conf" "~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf"
-	cp "${pkgdir}/rofi-shortcut.sh" "~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh"
-    	
+    mkdir -p ~/.config/rofi/rofi-shortcuts/
+    mkdir -p ~/.local/share/rofi/rofi-shortcuts/
+	  cp "${srcdir}/rofi-shortcuts/rofi-shortcuts.conf" "/home/zeioth/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf"
+	  cp "${srcdir}/rofi-shortcuts/rofi-shortcuts.sh" "/home/zeioth/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh"
 }

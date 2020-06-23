@@ -16,12 +16,12 @@ Just attach the script to a keyboard shortcut.
 
 **If you install from git run**
 
-    mkdir -p "~/.config/rofi/rofi-shortcuts/" && \ 
-    mkdir -p "~/.local/share/rofi/rofi-shortcuts/" && \ 
-    cp ./rofi-shortcuts.conf" "~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf" && \ 
-    cp ./rofi-shortcut.sh" "~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh" && \ 
+    # Install
+    mkdir -p ~/.config/rofi/rofi-shortcuts/ && mkdir -p ~/.local/share/rofi/rofi-shortcuts/
+	  cp ./rofi-shortcuts/rofi-shortcuts.conf" "/home/zeioth/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf"
+	  cp ./rofi-shortcuts/rofi-shortcuts.sh" "/home/zeioth/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh"
 
-    # To run rofi-shortcuts
+    # Then run rofi-shortcuts
     ~/.local/share/rofi/rofi-shortcuts.sh
 
 
