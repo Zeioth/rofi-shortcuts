@@ -6,23 +6,27 @@ Dependencies
 
   * rofi
 
-How to use
+How to install
 ==========
 Just attach the script to a keyboard shortcut.
 
 **If you install from AUR run**
 
-    ~/.local/share/rofi/rofi-shortcuts.sh
+    yay -S rofi-shortcuts-git
+    rofi-shortcuts
 
 **If you install from git run**
 
     # Install
-    mkdir -p ~/.config/rofi/rofi-shortcuts/ && mkdir -p ~/.local/share/rofi/rofi-shortcuts/
-	  cp ./rofi-shortcuts/rofi-shortcuts.conf" "/home/zeioth/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf"
-	  cp ./rofi-shortcuts/rofi-shortcuts.sh" "/home/zeioth/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh"
+    mkdir -p ~/.config/rofi/rofi-shortcuts/
+    mkdir -p ~/.local/share/rofi/rofi-shortcuts/
+	  cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.conf ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf
+	  cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.sh ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
+	  chmod u+x ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
+    ln -sf ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh ~/.local/bin/rofi-shortcuts
 
     # Then run rofi-shortcuts
-    ~/.local/share/rofi/rofi-shortcuts.sh
+    rofi-shortcuts
 
 
 Table of contents

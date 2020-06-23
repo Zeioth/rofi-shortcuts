@@ -8,7 +8,7 @@ pkgname=rofi-shortcuts-git
 pkgver=1.0
 pkgrel=1
 epoch=
-pkgdesc="Customizable cheatsheet based on rofi."
+pkgdesc="Customizable cheatsheet based on rofi"
 arch=(x86_64 i686)
 url="https://github.com/Zeioth/rofi-shortcuts.git"
 license=('MIT')
@@ -37,6 +37,8 @@ pkgver() {
 package() {
     mkdir -p ~/.config/rofi/rofi-shortcuts/
     mkdir -p ~/.local/share/rofi/rofi-shortcuts/
-	  cp "${srcdir}/rofi-shortcuts/rofi-shortcuts.conf" "/home/zeioth/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf"
-	  cp "${srcdir}/rofi-shortcuts/rofi-shortcuts.sh" "/home/zeioth/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh"
+	  cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.conf ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf
+	  cp "${srcdir}"/rofi-shortcuts/rofi-shortcuts.sh ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
+	  chmod u+x ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh
+    ln -sf ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh ~/.local/bin/rofi-shortcuts
 }
