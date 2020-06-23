@@ -10,10 +10,20 @@ How to use
 ==========
 Just attach the script to a keyboard shortcut.
 
-**Example for I3WM**
+**If you install from AUR run**
 
-    cp ./rofi-shortcuts ~/.config/rofi
-    bindsym $mod+ctrl+s exec "$(cat ~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf | rofi -i -dmenu -p "shortcuts")"
+    ~/.local/share/rofi/rofi-shortcuts.sh
+
+**If you install from git run**
+
+    mkdir -p "~/.config/rofi/rofi-shortcuts/" && \ 
+    mkdir -p "~/.local/share/rofi/rofi-shortcuts/" && \ 
+    cp ./rofi-shortcuts.conf" "~/.config/rofi/rofi-shortcuts/rofi-shortcuts.conf" && \ 
+    cp ./rofi-shortcut.sh" "~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh" && \ 
+
+    # To run rofi-shortcuts
+    ~/.local/share/rofi/rofi-shortcuts.sh
+
 
 Table of contents
 ==========
