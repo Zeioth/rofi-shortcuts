@@ -43,6 +43,7 @@ Table of contents
   - E x i t.
   - M u l t i  f i l e   (b u f f e r s).
   - T a b s.
+  - S e s s i o n s.
   - C o m m a n d  L i n e.
   - P l u g i n s.
 * S U B L I M E
@@ -57,7 +58,12 @@ Table of contents
   - R a n g e r  f i l e s.
   - R a n g e r  c o m m a n d s.
   - F i l e  s u b s t i t u t i n g.
-  - c u s t o m.
+  - C u s t o m.
+* T M U X
+  - S e s s i o n s.
+  - W i n d o w s.
+  - P a n e s.
+  - S y n c.
 * T I L I X
   - A p p l i c a t i o n.
   - t a b s (s e s s i o n s).
@@ -73,10 +79,10 @@ Table of contents
 * F I R E F O X
   - C u r r e n t  p a g e.
   - T a b s.
-  - H i s t o r y.
+  - H i s t o r y
   - B o o k m a r k s.
   - T o o l s.
-  - P d f .
+  - P d f.
   - M i s c.
 * V I M I U M C
   - V i m i u m c  n a v i g a t i o n.
@@ -112,6 +118,8 @@ Table of contents
 * L I G H T W O R K S [todo]
 * N A T R O N [todo]
 * B L E N D E R [todo]
+* A L I A S E S [todo]
+
 
 More info
 ==========
